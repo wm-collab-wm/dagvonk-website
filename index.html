@@ -6,25 +6,37 @@
   <meta name="color-scheme" content="light dark">
   <title>Dagvonk</title>
   <meta name="description" content="Dagvonk: elke dag een Nederlandse quote voor ondernemers, motivatie en sport.">
+  <link rel="icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="kop">
     <nav class="menu" aria-label="Hoofdmenu">
-      <span class="merk">Dagvonk</span>
+      <a class="merk" href="index.html"><img src="icon.png" alt="" width="40" height="40">Dagvonk</a>
       <a href="index.html" aria-current="page">Start</a>
       <a href="privacy.html">Privacy</a>
       <a href="support.html">Hulp</a>
     </nav>
   </header>
-  <main>
-    <h1>Dagvonk</h1>
-    <p>Dagvonk is een Android-app die je elke dag een Nederlandse quote geeft, zonder account en zonder advertenties.</p>
-    <div class="kaart">
-      <p><a href="privacy.html">Privacybeleid</a></p>
-      <p><a href="support.html">Hulp bij Dagvonk</a></p>
-    </div>
-  </main>
-  <footer>Dagvonk is een app van Functionele Apps.</footer>
+  <section class="held">
+    <h1>Begin klein, maar begin vandaag.</h1>
+    <p>Dagvonk geeft je elke dag een Nederlandse quote op je telefoon. Rustig, mooi en zonder account of advertenties.</p>
+    <button type="button" class="knop" disabled>Binnenkort op Google Play</button>
+  </section>
+  <div class="telefoons">
+    <img src="img/favorieten.jpg" alt="Dagvonk: je favoriete quotes" width="560" height="1213">
+    <img class="groot" src="img/vandaag.jpg" alt="Dagvonk: de quote van de dag" width="560" height="1213">
+    <img src="img/themas.jpg" alt="Dagvonk: kies een thema" width="560" height="1213">
+  </div>
+  <section class="premium">
+    <h2>Dagvonk Premium</h2>
+    <p>Alle thema's, foto-achtergronden en extra lettertypes. Je zegt je abonnement op wanneer je wilt.</p>
+    <ul class="prijzen">
+      <li><span class="periode">1 maand</span><span class="bedrag">&euro; 2,49</span></li>
+      <li class="beste"><span class="periode">12 maanden</span><span class="bedrag">&euro; 14,99</span><span class="extra">Bespaar 50%</span></li>
+      <li><span class="periode">Eenmalig</span><span class="bedrag">&euro; 34,99</span></li>
+    </ul>
+  </section>
+  <footer>Dagvonk is een app van Functionele Apps &middot; functionele.apps@gmail.com</footer>
 </body>
 </html>
